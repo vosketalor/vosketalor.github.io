@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+    font-size: 2vw;
+    background: #0078D7;
+    color: white;
+}
+
+body {
+    font-family: "Segoe UI", "Roboto", sans-serif;
+    margin: 7vw;
+    font-weight: 300;
+    width: 60vw;
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
+.smiley {
+    font-size: 5em;
+    display: block;
+    margin-top: -2rem;
+}
+
+#nofun {
+    background-color: black;
+    color: rgb(0, 255, 0);
+
+}
+
+#nofun .qrcode {
+    background-color: rgb(0, 128, 0);
+}
+
+.steak {
+    color: transparent;
+    -webkit-touch-callout: text;
+      -webkit-user-select: text;
+       -khtml-user-select: text;
+         -moz-user-select: text;
+          -ms-user-select: text;
+              user-select: text;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .qrcode {
+    width: 7vw;
+    height: 7vw;
+    margin-right: 1em;
+    image-rendering: optimizespeed;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.footer-text {
+    font-size: .75em;
+}
+
+.footer-text p {
+    margin: 0;
+    line-height: 1;
+}
+
+p.footer-subtext {
+    font-size: .75em;
+    margin-top: 2em;
+    display: block;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+@media (orientation: portrait) {
+    body {
+        width: unset;
+        font-size: 5vw;
+    }
+}
+
+.youtube { 
+    overflow:hidden; 
+    padding-bottom:56.25%; 
+    position:relative; 
+    height:0;
+}
+    
+.youtube iframe {
+    left:0; 
+    top:0; 
+    height:45%;
+    width:45%;
+    position:absolute;
+}
+
+/*    
+    __
+    / /\
+    \/_/__
+        \ '`\
+        `|  \______
+        |         \
+        ./ /-------, \ 
+        '-'       /__/
+
+*/
