@@ -33,7 +33,7 @@ header {
 }
   
 .tile {
-    width: 300px;
+    width: 450px;
     height: auto;
     margin: 10px;
     padding-top: 20px;
@@ -61,6 +61,10 @@ header {
 
 #tile3 {
     background: linear-gradient(to bottom right, #aa076b, #61045f);
+}
+
+#tile4 {
+    background: linear-gradient(to bottom right, #7C9BA9, #314457);
 }
 
 .tile h2 {
